@@ -1,0 +1,79 @@
+body {
+    background-color: black;
+    max-width: 1200px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    font-family: Lato, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.score {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    grid-gap: 10px;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.scrambleform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+h2 {
+    text-align: center;
+    font-size: 1rem;
+    font-family: Lato, Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+p {
+    text-align: center;
+    font-size: 3rem;
+    font-family: Lato, Helvetica, sans-serif;
+    font-weight: 400;
+    margin: 10px;
+}
+
+button {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: brown;
+    color: white;
+    margin: 10px;
+    border: 0;
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left {
+    color: black;
+    background-color: white;
+    padding: 2px;
+    border-radius: 2px;
+    font-weight: bolder;
+}
+
+input {
+    width: 300px;
+    height: 25px;
+}
+
+.scramblewrapper, .letters {
+    margin: 0;
+    padding: 0;
+}
